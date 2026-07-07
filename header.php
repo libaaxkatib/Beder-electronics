@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="site-header">
-        <h1><a href="index.php">Beder-electronics</a></h1>
+        <h1><a href="index.php">Beder Electronics</a></h1>
         <nav>
             <a href="index.php">Products</a>
             <a href="customers.php">Customers</a>
