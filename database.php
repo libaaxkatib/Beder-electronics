@@ -30,7 +30,7 @@ $db->exec("
         product_id INTEGER NOT NULL,
         quantity INTEGER NOT NULL,
         total_price REAL NOT NULL,
-        sale_date TEXT NOT NULL,
+        sale_date TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
         FOREIGN KEY (customer_id) REFERENCES customers(id),
         FOREIGN KEY (product_id) REFERENCES products(id)
     )
